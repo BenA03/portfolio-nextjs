@@ -20,17 +20,15 @@ export default function Home() {
         <NavButton
           shownTab={shownTab}
           toggleName='About'
-          visName='About'
           stateChanger={setTab}
         />
         <NavButton
           shownTab={shownTab}
-          toggleName='Recipe'
-          visName='Recipes'
+          toggleName='Recipes'
           stateChanger={setTab}
         />
         {shownTab === 'About' && <About />}
-        {shownTab === 'Recipe' && <Recipes />}
+        {shownTab === 'Recipes' && <Recipes />}
       </main>
       <Footer />
     </>
