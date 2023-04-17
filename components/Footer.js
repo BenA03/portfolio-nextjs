@@ -6,7 +6,7 @@ const footerText = {
 function Footer() {
     return (
         <footer>
-            <p style={footerText}><a href="https://github.com/BenA03/portfolio-nextjs#readme">About the project</a></p>
+            <p style={footerText}><a href="https://github.com/BenA03?tab=repositories">Other projects</a></p>
         </footer>
     );
 }
