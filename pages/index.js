@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Hello, world!</title>
+        <title>Hello, world! (Recipe App)</title>
       </Head>
       <Nav />
       <main>
