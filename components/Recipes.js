@@ -3,16 +3,23 @@ import { useState } from "react";
 
 function instantiateItems() {
     let recipeArr = [];
-    for (let i = 0; i < 3; i++) {
-        recipeArr.push("This is a card that the user did not make");
-    }
+    recipeArr.push("Hello");
+    recipeArr.push("World");
+    recipeArr.push("Foo");
+    recipeArr.push("Bar");
     return recipeArr;
 }
 
 function Recipes() {
     const [list, alterList] = useState(instantiateItems());
     let recipeList = list.map((item, index) => {
-        return <RecipeCard key={index} content={item + " (card number: " + (index + 1) + ")"} />
+        return <RecipeCard
+            key={index}
+            index={index}
+            content={item}
+            editList = {alterList}
+            currList = {list}
+        />
     })
     return (
         <>
