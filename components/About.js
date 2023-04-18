@@ -26,6 +26,7 @@ function About() {
                         <li>Add some sort of functionality for editing existing recipes, instead of just deleting and retyping.</li>
                         <li>Add additional fields for each recipe for common structures like direction lists, cook time, prep time, etc.
                         </li>
+                        <li>Menu for adding a recipe and newly added recipes should grow from the top so the page does not appear to jump when a new recipe is added.</li>
                         <li>Consolidate components, check code against tutorials to verify best practices.</li>
                     </ul>
                 </div>
