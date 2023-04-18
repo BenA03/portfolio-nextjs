@@ -6,7 +6,7 @@ function About() {
                     <h2>About</h2>
                     <p>This is my first web app created with the React Library. This site utilizes a Next JS
                         framework and is deployed on Vercel. In this demo app, users will be able to manage
-                        a list of "recipes", deleting existing entries, or adding their own.</p>
+                        a list of &quot;recipes&quot;, deleting existing entries, or adding their own.</p>
                 </div>
             </div>
             <div class="card small-card center vertical-spacing">
@@ -34,7 +34,7 @@ function About() {
                 <div class="card-body">
                     <h2>Image citations</h2>
                     <ul>
-                        <li>"<a href="https://freesvg.org/fresh-tomato">Fresh Tomato</a>" by <a href="https://freesvg.org/by/OpenClipart">Open Clipart</a> is licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>. Published June 18, 2016.</li>
+                        <li>&quot;<a href="https://freesvg.org/fresh-tomato">Fresh Tomato</a>&quot; by <a href="https://freesvg.org/by/OpenClipart">Open Clipart</a> is licensed under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>. Published June 18, 2016.</li>
                     </ul>
                 </div>
             </div>
