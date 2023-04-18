@@ -6,10 +6,12 @@ function removeThis(props) {
 }
 
 function RecipeCard(props) {
+    const recipe = props.content;
     return (
         <div class="card small-card center vertical-spacing">
             <div class="card-body column">
-                {props.content}
+                <h2>{recipe.title}</h2>
+                <p>Serving size: {recipe.servingSize}</p>
                 <button
                     className="btn btn-sm btn-danger vertical-spacing"
                     style={{ width: 200 }}

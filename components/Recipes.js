@@ -3,10 +3,12 @@ import { useState } from "react";
 
 function instantiateItems() {
     let recipeArr = [];
-    recipeArr.push("Hello");
-    recipeArr.push("World");
-    recipeArr.push("Foo");
-    recipeArr.push("Bar");
+    const tacoIngredients = ['Ground beef', 'Cheese', 'Tortillas', 'Sour Cream'];
+    const spaghettiIngredients = ['Spaghetti', 'Tomato sauce', 'Meatballs', 'Parmesan'];
+    const pizzaIngredients = ['Dough', 'Crushed tomatoes', 'Garlic', 'Mozzarella'];
+    recipeArr.push({title:"Tacos", ingredients: tacoIngredients, servingSize:4});
+    recipeArr.push({title:"Spaghetti and Meatballs", ingredients: spaghettiIngredients, servingSize:5});
+    recipeArr.push({title:"Pizza", ingredients: pizzaIngredients, servingSize:2});
     return recipeArr;
 }
 
