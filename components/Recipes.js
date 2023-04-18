@@ -46,7 +46,7 @@ function Recipes() {
     return (
         <>
             {recipeList}
-            <form class="card small-card center vertical-spacing">
+            <form class="card small-card center vertical-spacing greyBackground">
                 <div className="card-body">
                     <div className="input-group mb-3">
                         <span className="input-group-text" id="basic-addon1">Recipe title</span>
@@ -55,7 +55,7 @@ function Recipes() {
                     </div>
                     <div className="input-group mb-3">
                         <span className="input-group-text" id="basic-addon1">Ingredients List</span>
-                        <input type="text" className="form-control" placeholder="Enter as a comma seperated list"
+                        <input type="text" className="form-control" placeholder="Enter as a comma seperated list (eg: Bacon, Lettuce, Tomato)"
                         onChange={(e) => (newRecipe.ingredients = e.target.value)}/>
                     </div>
                     <div className="input-group mb-3">
